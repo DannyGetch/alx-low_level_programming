@@ -7,14 +7,14 @@
 
 int main(void)
 {
-        int c = 0;
+	int c = 0;
 	int d = 0;
 
-        while (c < 10)
-        {
-                putchar(48 + c);
-                c++;
-        }
+	while (c < 10)
+	{
+	putchar(48 + c);
+		c++;
+	}
 
 	while (d < 6)
 	{
@@ -22,6 +22,6 @@ int main(void)
 		d++;
 	}
 
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
