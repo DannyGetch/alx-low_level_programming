@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - Entry
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	for (int i = 0; i < 26; i++)
-		putchar('a' + i);
-	putchar('\n');
+		_putchar('a' + i);
+	_putchar('\n');
 	return (0);
 }
