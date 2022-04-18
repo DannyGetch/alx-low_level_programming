@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -atoi - converts a string to an int
+ * _atoi - converts a string to an int
  *
  *  @s: parameter to be processed
  *
